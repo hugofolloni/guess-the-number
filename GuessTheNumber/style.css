@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1c1c1c;
+    color: #EAEAEA;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background: #EAEAEA;
+    max-width: 30vw;
+    min-height: 10vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #1c1c1c; 
+    margin-top: 7vh;
+}
+
+h1 {
+    color: #413ca1;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 3vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form input[type='text'] {
+    margin: 2vh 20vh;
+    height: 40px;
+    width: 100px;
+    padding: 1rem;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+
+.form input[type='submit']{
+    cursor:pointer;
+    width:50%;
+    height: 6vh;
+    border: none;
+    border-radius: 32px;
+    background: #413ca1;
+    color: #EAEAEA;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 5vh;
+    margin-left: 6.5vw;
+}
+
+.form input[type='submit']:hover{
+    background: #5952d4;
+}
+
+p.lastresult{
+    text-align: center;
+    font-size: 200px;
+}
+
+
+
+
+.circle{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 0%;
+    left: 50%;
+    background: linear-gradient(45deg, #e8cbc0, #636fa4);
+    clip-path: circle(50% at right 0%);
+    z-index: -1;
+    transform: rotate(50);
+}
