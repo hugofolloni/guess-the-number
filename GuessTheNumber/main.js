@@ -53,7 +53,8 @@ function setGameOver() {
     resetButton = document.createElement('INPUT');
     resetButton.setAttribute("type", "button");
     resetButton.setAttribute("value", "Começar novo jogo!")
-    resetButton.style.cssText = 'cursor:pointer;width:75%;height: 6vh;border: none;border-radius: 32px;background: #413ca1;color: #EAEAEA;font-size: 1.1rem;margin-bottom: 2vh;margin-left: 3vw;'    var final = document.querySelector('.resultParas')
+    resetButton.style.cssText = 'cursor:pointer;width:75%;height: 6vh;border: none;border-radius: 32px;background: #413ca1;color: #EAEAEA;font-size: 1.1rem;margin-bottom: 2vh;margin-left: 3vw;';
+    var final = document.querySelector('.resultParas')
     var final = document.querySelector('.resultParas')
     final.appendChild(resetButton);
     resetButton.addEventListener('click', resetGame);
